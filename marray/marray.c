@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	// 横幅 m を指定しなくてはならない。
 	// GCC では、配列型の添字に定数のみならず、
 	// 変数も用いることができる。
-    int (*marray)[m] = malloc(sizeof(int) * n * m);
+	int (*marray)[m] = malloc(sizeof(int) * n * m);
 	
 	int i, j;
 	for (i = 0; i < n; i++) {
